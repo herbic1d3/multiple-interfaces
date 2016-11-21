@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link href="static/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/stylesheets/style.css">
+    <script type="text/javascript" src="static/javascripts/jquery-3.1.1.js"> </script>
+    <script type="text/javascript" src="static/javascripts/bootstrap.min.js"> </script>
+    <script type="text/javascript" src="static/javascripts/app.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container ">
+            <div class="collapse navbar-collapse navbar-left ">
+                <ul class="nav nav-tabs nav-tabs-fix">
+                    <li role="presentation" id="snmp-tab" class="" data-toggle="tooltip" data-placement="bottom" title="SNMP интерфейс">
+                        <a href="#">SNMP</a>
+                    </li>
+                    <li role="presentation" id="file-tab" class="active" data-toggle="tooltip" data-placement="bottom" title="File интерфейс">
+                        <a href="#">File</a>
+                    </li>
+                    <li role="presentation" id="database-tab" class="" data-toggle="tooltip" data-placement="bottom" title="Database интерфейс">
+                        <a href="#">Database</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div><!-- /.navbar-default -->
+    <div class="jumbotron">
+        <div class="container text-center">
+            <div class="message"></div>
+        </div><!-- /.container-fluid -->
+    </div><!-- /.jumbotron -->
+</body>
+</html>

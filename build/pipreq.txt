@@ -1,0 +1,5 @@
+tornado
+Jinja2
+ipython
+PyMySQL
+easysnmp

@@ -1,0 +1,19 @@
+<div class="file-data-table ">
+    <table class="table table-bordered table-striped js-options-table">
+        <thead>
+            <tr>
+                <th class="text-center"><strong>Counter</strong></th>
+                <th class="text-center"><strong>Value</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for line in data %}
+        <tr>
+            {% for item in line %}
+                <td>{{ item }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>  
